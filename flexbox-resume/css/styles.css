@@ -1,0 +1,77 @@
+*  {
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body {
+  margin: 0;
+  display: flex;
+}
+.profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+main{
+    display: flex;
+    background-color: rgb(50, 117, 204);
+    flex-basis: 35%;
+    flex-shrink: 0;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Arvo', serif;;
+}
+aside{
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    flex-basis: 65%;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    padding: 1rem;
+    width: 25%;
+}
+h1{
+    color: white;
+    font-family:'Righteous', cursive;
+}
+.white{
+    color: white;
+}
+h2,h3,h4{
+    text-align: auto;
+    color: black;
+    font-family: 'Righteous', cursive;
+}
+
+.skill-1{
+    display: flex;
+    height: 100px;
+    justify-items: left;
+    flex-direction: column;
+
+}
+.skill-2{
+    display: flex;
+    height: 100px;
+    justify-items: right;
+    flex-direction: column;
+}
+a{
+    color: white;
+}
+li, p, em{
+    color: black;
+    font-family: 'Arvo', serif; ;
+}
+.skill-section{
+    display: flex;
+    width: auto;
+}
+.profile{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
